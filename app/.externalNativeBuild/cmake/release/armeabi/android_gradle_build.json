@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/liliqiang/Desktop/android-curl-ndk-sample/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/liliqiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/liliqiang/Desktop/android-curl-ndk-sample/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"lib_curl-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lib_curl",
+			"buildType" : "release",
+			"output" : "/Users/liliqiang/Desktop/android-curl-ndk-sample/app/libs/armeabi/libcurl.a",
+			"toolchain" : "1520048344373035830"
+		},
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/liliqiang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/liliqiang/Desktop/android-curl-ndk-sample/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/liliqiang/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/liliqiang/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../src/main/cpp/include -isystem /Users/liliqiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/liliqiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/liliqiang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/liliqiang/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/liliqiang/Desktop/android-curl-ndk-sample/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/liliqiang/Desktop/android-curl-ndk-sample/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/liliqiang/Desktop/android-curl-ndk-sample/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "1520048344373035830"
+		}
+	},
+	"toolchains" : 
+	{
+		"1520048344373035830" : 
+		{
+			"cCompilerExecutable" : "/Users/liliqiang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/liliqiang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
